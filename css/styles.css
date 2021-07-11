@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container_one {
+  background-color: #fdd2bf;
+}
+
+/* navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin-right: 1px;
+}
+
+li a {
+  display: block;
+  color: #E98580;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #DF5E5E;
+}
+
+/* font */
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 60px;
+  margin: 20px 0;
+  color: #492f10;
+}
+
+.I {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #492f10;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  line-height: 0.5;
+  text-align: center;
+  font-size: 20px;
+  color: #492f10;
+}
+ /* Home */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 100px;
+  position: absolute;
+  top: 10px;
+  width: 100%
+}
+
+.intro {
+  padding-bottom: 100px;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+}
+
+.image {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photo {
+  height: 600px;
+  width: 600px;
+}
+
+/* About */
+
+.container_two {
+  background-color: #f2efeb;
+  color: #492f10;
+}
+
+.me {
+  float: left;
+  height: 300px;
+  width: 300px;
+  padding: 100px 250px 100px;
+}
+
+.about {
+  padding: 100px 200px 100px 150px;
+  margin: 0;
+  color: #492f10;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+/* Projects */
+
+.container_three {
+  background-color: #DF5E5E;
+  color: white;
+  padding-bottom: 200px;
+
+}
+
+.projects {
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 50px;
+}
+
+.al{
+  float: left;
+  width: 250px;
+  text-align: center;
+  margin-left: 150px;
+  font-size: 20px;
+  padding-right: 200px;
+}
+
+.rl{
+  float: right;
+  width: 250px;
+  text-align: center;
+  margin-right: 150px;
+  font-size: 20px;
+}
+
+.first {
+  padding-bottom: 20px;
+}
+
+.third{
+  padding-bottom: 10px;
+}
+
+.coding {
+  height: 250px;
+  width: 250px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+h4 {
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.info{
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 1px;
+}
+
+/* Blogs*/
+.container_four {
+  background-color: #f2efeb;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+.contain{
+  display: flex;
+  justify-content: left;
+  padding: 100px 150px 50px;
+  position: absolute;
+}
+
+.square:hover {
+    -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+     }
+
+
+.square{
+  width: 460px;
+	height: 430px;
+	background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #D9DBDF;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.mask{
+  clip: rect(0px, 460px, 220px, 0px);
+  border-radius: 4px;
+  position: absolute;
+}
+
+img{
+  width: 458px;
+  height: 300px;
+  }
+
+.h1{
+  margin: auto;
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+.apple{
+ text-align: justify;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 12px;
+ color: #C8C8C8;
+ line-height: 18px;
+}
+
+.button {
+    background-color: #3EDD84;
+    color: white;
+    width: 90px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.contain2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 150px 50px;
+}
+
+/* Contact */
+
+.container_five {
+  background-color: #fdd2bf;
+}
+
+.about_me{
+  text-align: center;
+  color: #492f10;
+}
+
+.Sejal {
+  margin: 0;
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+.address {
+  font-size: 20px;
+}
+
+.number {
+  font-size: 20px;
+}
+
+.address {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.fab{
+  margin-right:10px;
+  color: #E98580;
+}
+
+.fab:hover{
+  color: #DF5E5E;
+}
+
+.Copyright{
+  color: #E98580;
+}
