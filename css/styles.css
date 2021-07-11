@@ -179,7 +179,7 @@ h4 {
 .contain{
   display: flex;
   justify-content: left;
-  padding: 100px 150px 50px;
+  padding: 50px 150px 50px;
   position: absolute;
 }
 
@@ -253,7 +253,15 @@ img{
 .contain2 {
   display: flex;
   justify-content: flex-end;
-  padding: 100px 150px 50px;
+  padding: 50px 150px 50px;
+}
+
+.upper{
+  padding-top: 50px;
+}
+
+.lower{
+  padding-bottom: 50px;
 }
 
 /* Contact */
